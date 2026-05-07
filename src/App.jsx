@@ -5,6 +5,7 @@ import ClickablePicture from './Components/ClickablePicture.jsx'
 import Dice from './Components/Dice.jsx'
 import { useState } from 'react'
 import Carousel from './Components/Carousel.jsx'
+import DiscoButton from './Components/DiscoButton.jsx'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Counter/>
       <ClickablePicture/>
       <Dice/>
+      <DiscoButton/>
       <Carousel image={images}/>
     </div>
   );
